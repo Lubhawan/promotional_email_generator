@@ -27,8 +27,3 @@ class EmailSender:
             print("✅ Email sent successfully!")
         except Exception as e:
             print("❌ Error:", e)
-
-# Usage Example:
-if __name__ == "__main__":
-    email_sender = EmailSender("your_email@gmail.com", "your_app_password")
-    email_sender.send_email("recipient@example.com", "Test Email", "Hello, this is a test email sent from Python!")
