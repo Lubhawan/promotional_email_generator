@@ -3,9 +3,6 @@ from emailer import EmailSender
 import os
 
 def main():
-#     SENDER_MAIL = os.getenv('SENDER_MAIL')
-#     SENDER_MAIL_PASSWORD = os.getenv('SENDER_MAIL_PASSWORD')
-
     recipient_email = input("Enter the email address of the recipient: ")
 
     your_name = input("Enter your name: ")
